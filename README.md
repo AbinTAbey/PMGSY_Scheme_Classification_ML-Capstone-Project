@@ -25,10 +25,10 @@ Prediction: The deployed model receives new project data (physical and financial
 ## Data Source
 
 The dataset used for this project is:
-**District-wise Pension Data under the National Social Assistance Programme (NSAP)**
+**Pradhan Mantri Gram Sadak Yojana (PMGSY) Project Dataset**
 * **Source:** AI Kosh, Government of India
 * **Link:** [https://aikosh.indiaai.gov.in/web/datasets/details/district_wise_pension_data_under_the_national_social_assistance_programme_nsap_1.html](https://aikosh.indiaai.gov.in/web/datasets/details/district_wise_pension_data_under_the_national_social_assistance_programme_nsap_1.html)
-* **File in this repository:** `nsapallschemes.csv`
+* **File in this repository:** `PMGSY_DATASET.csv`
 
 **Note on Data Granularity:** The provided dataset contains *aggregated district-level data* (e.g., total beneficiaries, total male/female in a district). While the model accurately predicts the most appropriate scheme for a given district's profile, a future enhancement would involve acquiring individual-level applicant data for direct applicant-specific predictions.
 
