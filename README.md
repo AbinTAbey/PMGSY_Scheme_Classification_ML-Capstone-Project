@@ -1,4 +1,4 @@
-# Predicting Eligibility for National Social Assistance Program (NSAP) using Machine Learning
+# Intelligent Classification of PMGSY Rural Infrastructure Projects using Machine Learning
 
 ## Overview
 
