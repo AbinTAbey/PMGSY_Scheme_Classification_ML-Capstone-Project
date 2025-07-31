@@ -27,7 +27,7 @@ Prediction: The deployed model receives new project data (physical and financial
 The dataset used for this project is:
 **Pradhan Mantri Gram Sadak Yojana (PMGSY) Project Dataset**
 * **Source:** AI Kosh, Government of India
-* **Link:** [https://aikosh.indiaai.gov.in/web/datasets/details/district_wise_pension_data_under_the_national_social_assistance_programme_nsap_1.html](https://aikosh.indiaai.gov.in/web/datasets/details/district_wise_pension_data_under_the_national_social_assistance_programme_nsap_1.html)
+* **Link:** [https://aikosh.indiaai.gov.in/web/datasets/details/pradhan_mantri_gram_sadak_yojna_pmgsy.html](https://aikosh.indiaai.gov.in/web/datasets/details/pradhan_mantri_gram_sadak_yojna_pmgsy.html)
 * **File in this repository:** `PMGSY_DATASET.csv`
 
 **Note on Data Granularity:** 
