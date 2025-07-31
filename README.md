@@ -30,7 +30,8 @@ The dataset used for this project is:
 * **Link:** [https://aikosh.indiaai.gov.in/web/datasets/details/district_wise_pension_data_under_the_national_social_assistance_programme_nsap_1.html](https://aikosh.indiaai.gov.in/web/datasets/details/district_wise_pension_data_under_the_national_social_assistance_programme_nsap_1.html)
 * **File in this repository:** `PMGSY_DATASET.csv`
 
-**Note on Data Granularity:** The provided dataset contains *aggregated district-level data* (e.g., total beneficiaries, total male/female in a district). While the model accurately predicts the most appropriate scheme for a given district's profile, a future enhancement would involve acquiring individual-level applicant data for direct applicant-specific predictions.
+**Note on Data Granularity:** 
+The provided dataset contains *aggregated project-level data* at the state and district level (e.g., number and length of road and bridge works sanctioned, associated costs, completion status, and expenditures, all linked to a specific scheme). While the developed machine learning model accurately classifies individual projects into their corresponding PMGSY scheme using these features, future enhancements could involve working with more granular data—such as work-level or real-time project activity records—to enable even finer and more dynamic scheme predictions.
 
 ## Technologies Used
 
