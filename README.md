@@ -31,7 +31,7 @@ The dataset used for this project is:
 * **File in this repository:** `PMGSY_DATASET.csv`
 
 **Note on Data Granularity:** 
-The provided dataset contains *aggregated project-level data* at the state and district level (e.g., number and length of road and bridge works sanctioned, associated costs, completion status, and expenditures, all linked to a specific scheme). While the developed machine learning model accurately classifies individual projects into their corresponding PMGSY scheme using these features, future enhancements could involve working with more granular data—such as work-level or real-time project activity records—to enable even finer and more dynamic scheme predictions.
+The provided dataset contains *aggregated project-level data* at the state and district level (e.g., number and length of road and bridge works sanctioned, associated costs, completion status, and expenditures, all linked to a specific scheme). While the developed machine learning model accurately classifies individual projects into their corresponding PMGSY scheme using these features, Future enhancements could involve integrating more granular (e.g., individual work-level or real-time) data to further refine scheme predictions and enable even more targeted analysis.
 
 ## Technologies Used
 
@@ -63,7 +63,7 @@ The `NSAP-Eligibility-AutoAI-Notebook.ipynb` provides the programmatic details o
 
 ## Model Performance
 
-The AutoAI experiment optimized for **Accuracy**, achieving high performance in classifying the `PMGSY_SCHEME` based on the district-level input features. Detailed performance metrics, including the confusion matrix and feature importance, can be found within the IBM Watson Studio AutoAI experiment results.
+The AutoAI experiment was optimized for Accuracy, resulting in high performance when classifying the `PMGSY_SCHEME` target based on the state, district, and associated project-level features. The model demonstrates robust ability to distinguish between different PMGSY schemes (such as PMGSY-I, PMGSY-II, RCPLWEA, etc.) using the available physical and financial attributes. Detailed performance metrics, including the confusion matrix and feature importance, can be found within the IBM Watson Studio AutoAI experiment results.
 
 ## Future Enhancements
 
