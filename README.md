@@ -1,10 +1,16 @@
-# Intelligent Classification of PMGSY Rural Infrastructure Projects using Machine Learning
-##Overview
+# Predicting Eligibility for National Social Assistance Program (NSAP) using Machine Learning
+
+## Overview
+
 This project aims to develop a machine learning solution that automatically classifies rural infrastructure projects—such as roads and bridges—under the appropriate phase or scheme of the Pradhan Mantri Gram Sadak Yojana (PMGSY). By leveraging government-provided datasets from the AI Kosh initiative and implementing the entire workflow on IBM Cloud Lite services, the solution intends to help government agencies, infrastructure planners, and policy analysts streamline the monitoring and management of thousands of projects. Efficient classification is crucial for transparent budgeting, efficient resource allocation, and data-driven assessment of the long-term impact of various PMGSY schemes.
-##Problem Statement
+
+## Problem Statement
+
 The Pradhan Mantri Gram Sadak Yojana (PMGSY) is a flagship rural development program by the Government of India that provides all-weather road connectivity to unconnected rural habitations. Over several phases (including PMGSY-I, PMGSY-II, and RCPLWEA), each scheme brings unique objectives, funding mechanisms, and project specifications. Manually categorizing the vast number of completed and ongoing rural infrastructure projects is labor-intensive, potentially error-prone, and difficult to scale as the volume of data grows. The challenge is to design, build, and evaluate a machine learning model that classifies each road or bridge project into its correct PMGSY_SCHEME based on its physical and financial characteristics. The goal is to offer an accurate, scalable, and reproducible system that enables government stakeholders to quickly and reliably categorize projects, improving operational efficiency and transparency in rural infrastructure development.
-Solution Overview
-A multi-class classification model was developed to predict the correct PMGSY_SCHEME (such as PMGSY-I, PMGSY-II, RCPLWEA, etc.) for rural infrastructure projects based on their physical and financial attributes. Leveraging the AI Kosh dataset and fully utilizing IBM Watson Studio’s AutoAI for the entire machine learning pipeline, the solution enables end-to-end automation—from initial data preparation to deployment of a scalable evaluation system. The final trained model is published as a REST API endpoint on IBM Cloud, making it easy to integrate with existing government IT systems or project management dashboards.
+
+## Solution Overview
+
+A **multi-class classification model** was developed to predict the correct `PMGSY_SCHEME `(such as PMGSY-I, PMGSY-II, RCPLWEA, etc.) for rural infrastructure projects based on their physical and financial attributes. Leveraging the AI Kosh dataset and fully utilizing IBM Watson Studio’s AutoAI for the entire machine learning pipeline, the solution enables end-to-end automation—from initial data preparation to deployment of a scalable evaluation system. The final trained model is published as a REST API endpoint on IBM Cloud, making it easy to integrate with existing government IT systems or project management dashboards.
 
 Key Components:
 
@@ -16,4 +22,52 @@ Model Deployment: The best-performing classification model is deployed to IBM Wa
 
 Prediction: The deployed model receives new project data (physical and financial characteristics) and returns the predicted PMGSY scheme, enabling rapid, consistent, and transparent project categorization.
 
+## Data Source
 
+The dataset used for this project is:
+**District-wise Pension Data under the National Social Assistance Programme (NSAP)**
+* **Source:** AI Kosh, Government of India
+* **Link:** [https://aikosh.indiaai.gov.in/web/datasets/details/district_wise_pension_data_under_the_national_social_assistance_programme_nsap_1.html](https://aikosh.indiaai.gov.in/web/datasets/details/district_wise_pension_data_under_the_national_social_assistance_programme_nsap_1.html)
+* **File in this repository:** `nsapallschemes.csv`
+
+**Note on Data Granularity:** The provided dataset contains *aggregated district-level data* (e.g., total beneficiaries, total male/female in a district). While the model accurately predicts the most appropriate scheme for a given district's profile, a future enhancement would involve acquiring individual-level applicant data for direct applicant-specific predictions.
+
+## Technologies Used
+
+* **IBM Cloud:** The foundational cloud platform.
+* **IBM Cloud Object Storage:** For secure storage of the dataset.
+* **IBM Watson Studio:** The integrated environment for data science and machine learning workflows.
+* **AutoAI (within Watson Studio):** Automated machine learning tool for building, training, and optimizing ML models.
+* **IBM Watson Machine Learning:** Service for managing runtime environments and deploying models.
+* **Git & GitHub:** For version control and repository hosting.
+
+## Repository Contents
+
+* `nsapallschemes.csv`: The raw dataset used for training the model.
+* `NSAP-Eligibility-AutoAI-Notebook.ipynb`: A Jupyter Notebook automatically generated by IBM Watson Studio's AutoAI, containing the code for the best-performing machine learning pipeline. This notebook provides insights into the preprocessing steps and the model architecture.
+
+## How to Use/Run (Conceptual)
+
+This project was primarily developed and deployed on IBM Cloud. To understand or reproduce the core steps:
+
+1.  **IBM Cloud Account:** Access to an IBM Cloud account (Lite tier is sufficient for this project).
+2.  **Provision Services:** Provision IBM Cloud Object Storage, IBM Watson Studio, and IBM Watson Machine Learning services.
+3.  **Create Project:** Set up a new project in IBM Watson Studio and link it to your Cloud Object Storage.
+4.  **Upload Data:** Upload `nsapallschemes.csv` to your project's data assets.
+5.  **Run AutoAI Experiment:** Create a new AutoAI experiment, select `nsapallschemes.csv` as the data source, and choose `schemecode` as the target column for multi-class classification. Run the experiment.
+6.  **Save & Deploy Model:** Save the best-performing pipeline as a model. Create a Deployment Space, promote the model to this space, and then create an "Online Deployment" to get a REST API endpoint.
+7.  **Test Predictions:** Use the "Test" tab in the deployed model's interface (or its API endpoint) to send new data in JSON format and receive predictions.
+
+The `NSAP-Eligibility-AutoAI-Notebook.ipynb` provides the programmatic details of the generated model and can be run within a Watson Studio notebook environment.
+
+## Model Performance
+
+The AutoAI experiment optimized for **Accuracy**, achieving high performance in classifying the `schemecode` based on the district-level input features. Detailed performance metrics, including the confusion matrix and feature importance, can be found within the IBM Watson Studio AutoAI experiment results.
+
+## Future Enhancements
+
+* **Individual Applicant Prediction:** The most critical enhancement involves acquiring or collecting individual-level applicant data to enable direct prediction for a single applicant's personal demographic and socio-economic attributes.
+* **Integration with Application Systems:** Develop a user-friendly front-end application that consumes the deployed model's API to provide real-time scheme recommendations.
+* **Real-time Data Integration:** Incorporate additional real-time data sources (e.g., local policy changes, specific events) that might influence scheme eligibility or demand, such as policy updates or local events.
+* **Model Monitoring & Retraining:** Implement continuous monitoring of the deployed model's performance in a production environment and establish automated retraining pipelines to ensure its long-term accuracy and relevance.
+* **Explainable AI (XAI):** Integrate XAI techniques to provide insights into *why* a particular scheme was predicted, enhancing trust and transparency for government agencies.
