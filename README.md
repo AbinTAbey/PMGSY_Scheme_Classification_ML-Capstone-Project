@@ -71,6 +71,7 @@ The `PMGSY_RURALAutoAI-Notebook.ipynb` provides the programmatic details of the 
 
 The AutoAI experiment was optimized for Accuracy, achieving **above 90% accuracy** resulting in high performance when classifying the `PMGSY_SCHEME` target based on the state, district, and associated project-level features. The model demonstrates robust ability to distinguish between different PMGSY schemes (such as PMGSY-I, PMGSY-II, RCPLWEA, etc.) using the available physical and financial attributes. Detailed performance metrics, including the confusion matrix and feature importance, can be found within the IBM Watson Studio AutoAI experiment results.
 
+![image alt](https://github.com/AbinTAbey/PMGSY_Scheme_Classification_ML-Project/blob/5e87147ed64ff878d899a0ad013b9eb9e70be3ab/src/accuracy.PNG)
 ## Future Enhancements
 
 * **Integrate Additional Data Sources:** Enhance the model’s predictive accuracy and robustness by incorporating diverse data streams, such as real-time project progress updates, satellite imagery for on-ground construction verification, and local economic indicators. This multi-source integration will provide a more comprehensive profile of each project for smarter scheme assignment.
