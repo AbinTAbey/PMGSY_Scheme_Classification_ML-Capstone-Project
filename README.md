@@ -34,6 +34,7 @@ The dataset used for this project is:
 ![image alt](https://github.com/AbinTAbey/PMGSY_Scheme_Classification_ML-Project/blob/eba57139fb95829fb5a628d2563edd1730694d56/src/dataset.PNG)
 
 **🔗 Live Interactive Dashboard:** [View Dashboard](https://claude.ai/public/artifacts/dfedc4aa-4547-4b76-942a-af8a1536a85a)
+
 ![image alt](https://github.com/AbinTAbey/PMGSY_Scheme_Classification_ML-Project/blob/550e2d5389a9c119c5a6a4c64c550a33c1da204c/src/cid_2.PNG)
 
 ### 📌 Note on Data Granularity
