@@ -33,8 +33,6 @@ The dataset used for this project is:
 
 **🔗 Live Interactive Dashboard:** [View Dashboard](https://claude.ai/public/artifacts/dfedc4aa-4547-4b76-942a-af8a1536a85a)
 
----
-
 ### 📌 Note on Data Granularity
 The provided dataset contains *aggregated project-level data* at the **state and district level** (e.g., number and length of road and bridge works sanctioned, associated costs, completion status, and expenditures, all linked to a specific scheme).  
 
