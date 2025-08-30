@@ -22,17 +22,24 @@ Model Deployment: The best-performing classification model is deployed to IBM Wa
 
 Prediction: The deployed model receives new project data (physical and financial characteristics) and returns the predicted PMGSY scheme, enabling rapid, consistent, and transparent project categorization.
 
-## Data Source
+## 📊 Data Source
 
-The dataset used for this project is:
+The dataset used for this project is:  
 **Pradhan Mantri Gram Sadak Yojana (PMGSY) Project Dataset**
-* **Source:** AI Kosh, Government of India
-* **Link:** [https://aikosh.indiaai.gov.in/web/datasets/details/pradhan_mantri_gram_sadak_yojna_pmgsy.html](https://aikosh.indiaai.gov.in/web/datasets/details/pradhan_mantri_gram_sadak_yojna_pmgsy.html)
-* **File in this repository:** `PMGSY_DATASET.csv`
-* 
-**Dataset live Interactive Dashboard:** https://claude.ai/public/artifacts/dfedc4aa-4547-4b76-942a-af8a1536a85a
-**Note on Data Granularity:** 
-The provided dataset contains *aggregated project-level data* at the state and district level (e.g., number and length of road and bridge works sanctioned, associated costs, completion status, and expenditures, all linked to a specific scheme). While the developed machine learning model accurately classifies individual projects into their corresponding PMGSY scheme using these features, Future enhancements could involve integrating more granular (e.g., individual work-level or real-time) data to further refine scheme predictions and enable even more targeted analysis.
+
+- **Source:** AI Kosh, Government of India  
+- **Link:** [Pradhan Mantri Gram Sadak Yojana (PMGSY) Dataset](https://aikosh.indiaai.gov.in/web/datasets/details/pradhan_mantri_gram_sadak_yojna_pmgsy.html)  
+- **File in this repository:** `PMGSY_DATASET.csv`  
+
+**🔗 Live Interactive Dashboard:** [View Dashboard](https://claude.ai/public/artifacts/dfedc4aa-4547-4b76-942a-af8a1536a85a)
+
+---
+
+### 📌 Note on Data Granularity
+The provided dataset contains *aggregated project-level data* at the **state and district level** (e.g., number and length of road and bridge works sanctioned, associated costs, completion status, and expenditures, all linked to a specific scheme).  
+
+While the developed machine learning model accurately classifies individual projects into their corresponding **PMGSY scheme** using these features, future enhancements could involve integrating more granular data (e.g., **individual work-level or real-time data**) to further refine scheme predictions and enable more targeted analysis.
+
 
 ## Technologies Used
 
