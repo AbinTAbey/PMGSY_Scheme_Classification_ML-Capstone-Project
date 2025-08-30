@@ -31,7 +31,6 @@ The dataset used for this project is:
 * **File in this repository:** `PMGSY_DATASET.csv`
 * 
 **Dataset live Interactive Dashboard:** https://claude.ai/public/artifacts/dfedc4aa-4547-4b76-942a-af8a1536a85a
-  
 **Note on Data Granularity:** 
 The provided dataset contains *aggregated project-level data* at the state and district level (e.g., number and length of road and bridge works sanctioned, associated costs, completion status, and expenditures, all linked to a specific scheme). While the developed machine learning model accurately classifies individual projects into their corresponding PMGSY scheme using these features, Future enhancements could involve integrating more granular (e.g., individual work-level or real-time) data to further refine scheme predictions and enable even more targeted analysis.
 
