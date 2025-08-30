@@ -31,6 +31,8 @@ The dataset used for this project is:
 - **Link:** [Pradhan Mantri Gram Sadak Yojana (PMGSY) Dataset](https://aikosh.indiaai.gov.in/web/datasets/details/pradhan_mantri_gram_sadak_yojna_pmgsy.html)  
 - **File in this repository:** `PMGSY_DATASET.csv`  
 
+![image alt](https://github.com/AbinTAbey/PMGSY_Scheme_Classification_ML-Project/blob/eba57139fb95829fb5a628d2563edd1730694d56/src/dataset.PNG)
+
 **🔗 Live Interactive Dashboard:** [View Dashboard](https://claude.ai/public/artifacts/dfedc4aa-4547-4b76-942a-af8a1536a85a)
 
 ### 📌 Note on Data Granularity
