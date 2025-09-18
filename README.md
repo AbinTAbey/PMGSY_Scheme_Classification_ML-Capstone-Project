@@ -1,4 +1,4 @@
-# Intelligent Classification of PMGSY Rural Infrastructure Projects using Machine Learning
+# Intelligent Classification of PMGSY Rural Infrastructure Projects using Machine Learning - Capstone Project
 
 ## Overview
 
