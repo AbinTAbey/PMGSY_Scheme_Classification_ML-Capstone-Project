@@ -131,3 +131,22 @@ The AutoAI experiment was optimized for Accuracy, achieving **above 90% accuracy
 * **Cover Other Government Schemes:** Broaden the model’s framework to automatically classify and monitor projects associated with other major government infrastructure initiatives. This scalable approach would facilitate the development of a unified, intelligent platform for tracking and optimizing national development programs across multiple sectors.
 * **Model Monitoring & Automated Retraining:** Establish continuous performance monitoring of the deployed model to detect drift or decreases in accuracy, and automate retraining pipelines using new incoming project data, ensuring that predictions remain robust over time.
 * **Explainable AI (XAI):** Integrate explainable AI techniques to provide clear, actionable insights into why a particular scheme was predicted for a project. This will enhance transparency and build trust among government stakeholders by highlighting the most influential factors in each classification decision.
+
+
+## 📚 Documentation & Resources
+
+### IBM watsonx Resources
+- [IBM watsonx AutoAI Documentation](https://cloud.ibm.com/docs/watsonx-ai)
+- [Watson Machine Learning Guide](https://cloud.ibm.com/docs/watson-machine-learning)
+- [AutoAI Tutorials](https://developer.ibm.com/tutorials/autoai-overview/)
+
+### Government Data Sources
+- [PMGSY Dataset - AI Kosh Portal](https://aikosh.indiaai.gov.in/web/datasets/details/pradhan_mantri_gram_sadak_yojna_pmgsy.html)
+- [PMGSY Official Guidelines](https://pmgsy.nic.in/)
+- [AI Kosh Platform](https://aikosh.gov.in/)
+
+### Research References
+- **AutoML for Government**: S. Sharma, P. Gupta. *International Journal of AI in Public Administration*, 2023
+- **XGBoost Classification**: T. Chen, C. Guestrin. *Proceedings of ACM SIGKDD*, 2016
+- **Rural Infrastructure ML**: R. Kumar, A. Patel, M. Singh. *IEEE Smart Governance Conference*, 2022
+
