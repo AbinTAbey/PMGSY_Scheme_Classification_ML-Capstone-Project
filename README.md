@@ -150,3 +150,17 @@ The AutoAI experiment was optimized for Accuracy, achieving **above 90% accuracy
 - **XGBoost Classification**: T. Chen, C. Guestrin. *Proceedings of ACM SIGKDD*, 2016
 - **Rural Infrastructure ML**: R. Kumar, A. Patel, M. Singh. *IEEE Smart Governance Conference*, 2022
 
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- **Ministry of Rural Development, Government of India** for PMGSY program data
+- **AI Kosh Initiative** for providing open government datasets
+- **IBM watsonx Team** for AutoAI platform capabilities
+- **Digital India Mission** for promoting AI in governance
+  
+**⭐ Star this repository if you find it helpful!**
+
+*This project demonstrates the practical application of AI in government operations, transforming manual processes into intelligent, automated solutions for better rural infrastructure management.*
