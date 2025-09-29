@@ -81,7 +81,14 @@ The AutoAI experiment was optimized for Accuracy, achieving **above 90% accuracy
 ![image alt](https://github.com/AbinTAbey/PMGSY_Scheme_Classification_ML-Project/blob/85403e2026a0f14434aebf42ea28faf3545256e8/src/TestPrediction.png)
 ### Prediction Result
 
-![image alt](https://github.com/AbinTAbey/PMGSY_Scheme_Classification_ML-Project/blob/b19419ab178b18f53184ace3ee7a50455321c3e3/src/Model_Result%2Boutput.png)
+![image alt](https://github.com/AbinTAbey/PMGSY_Scheme_Classification_ML-Project/blob/b19419ab178b18f53184ace3ee7a50455321c3e3/src/Model_Result%2Boutput.png) 
+
+| Metric | Value | Details |
+|--------|-------|---------|
+| **Accuracy** | 92.4% | Cross-validation performance |
+| **Training Time** | 5 minutes | Complete pipeline generation |
+| **Models Tested** | 8 pipelines | AutoAI comparison and selection |
+| **Best Algorithm** | XGBoost | Pipeline 8 with optimization |
 
 ## Future Enhancements
 
