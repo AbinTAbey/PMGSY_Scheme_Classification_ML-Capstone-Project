@@ -50,6 +50,15 @@ The provided dataset contains *aggregated project-level data* at the state and d
 * **IBM Watson Machine Learning:** Service for managing runtime environments and deploying models.
 * **Git & GitHub:** For version control and repository hosting.
 
+
+| Component | Technology | Purpose |
+|-----------|------------|---------|
+| **ML Platform** | IBM watsonx.ai Studio | Automated model development |
+| **Algorithm** | XGBoost Classifier | Optimal classification performance |
+| **Data Source** | AI Kosh PMGSY Dataset | Official government project data |
+| **Deployment** | IBM Cloud | Scalable production environment |
+| **API** | REST Endpoints | Real-time integration capability |
+
 ## Repository Contents
 
 * `PMGSY_DATASET.csv`: The raw dataset used for training the model.
