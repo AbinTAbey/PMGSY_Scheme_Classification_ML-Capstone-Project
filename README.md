@@ -83,6 +83,7 @@ The AutoAI experiment was optimized for Accuracy, achieving **above 90% accuracy
 
 ![image alt](https://github.com/AbinTAbey/PMGSY_Scheme_Classification_ML-Project/blob/b19419ab178b18f53184ace3ee7a50455321c3e3/src/Model_Result%2Boutput.png) 
 
+### Performance Metrics
 | Metric | Value | Details |
 |--------|-------|---------|
 | **Accuracy** | 92.4% | Cross-validation performance |
