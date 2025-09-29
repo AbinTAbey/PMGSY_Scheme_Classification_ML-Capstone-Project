@@ -91,6 +91,30 @@ The AutoAI experiment was optimized for Accuracy, achieving **above 90% accuracy
 | **Models Tested** | 8 pipelines | AutoAI comparison and selection |
 | **Best Algorithm** | XGBoost | Pipeline 8 with optimization |
 
+## Application Scenarios
+
+### Primary Users
+
+- **Government Officials**
+  - Instantly categorize projects for faster reporting and workflow.
+  - View real-time project status via integrated dashboards for better oversight.
+  - Verify policy compliance for each project using automated checks.
+- **Infrastructure Planners**
+  - Optimize how resources are distributed across regions and schemes.
+  - Manage diverse project portfolios for more strategic decision-making.
+  - Use classified data to support long-term planning and forecasting.
+- **Audit Teams**
+  - Automate compliance reviews for government standards and procedures.
+  - Quickly validate historical project classifications for transparency and audit purposes.
+  - Generate reports to improve accountability and track outcomes.
+
+### Integration Scenarios
+
+- **ERP Systems**: Seamlessly connect the classification API to government enterprise resource platforms for live data updates.
+- **Mobile Apps**: Enable real-time project verification and scheme assignment for field staff using mobile interfaces.
+- **Dashboards**: Empower stakeholders with interactive, real-time analytics and project monitoring.
+- **Batch Processing**: Efficiently process and reclassify large datasets of historical projects for analysis and compliance audits.
+
 ## Future Enhancements
 
 * **Integrate Additional Data Sources:** Enhance the model’s predictive accuracy and robustness by incorporating diverse data streams, such as real-time project progress updates, satellite imagery for on-ground construction verification, and local economic indicators. This multi-source integration will provide a more comprehensive profile of each project for smarter scheme assignment.
