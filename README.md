@@ -87,7 +87,7 @@ The AutoAI experiment was optimized for Accuracy, achieving **above 90% accuracy
 | Metric | Value | Details |
 |--------|-------|---------|
 | **Accuracy** | 92.4% | Cross-validation performance |
-| **Training Time** | 5 minutes | Complete pipeline generation |
+| **Training Time** | 3 minutes | Complete pipeline generation |
 | **Models Tested** | 8 pipelines | AutoAI comparison and selection |
 | **Best Algorithm** | XGBoost | Pipeline 8 with optimization |
 
