@@ -21,6 +21,9 @@ Automated ML Pipeline: The entire machine learning process—data cleaning, feat
 Model Deployment: The best-performing classification model is deployed to IBM Watson Machine Learning as a secure and scalable online API endpoint.
 
 Prediction: The deployed model receives new project data (physical and financial characteristics) and returns the predicted PMGSY scheme, enabling rapid, consistent, and transparent project categorization.
+## 📊 System Architecture
+
+![image alt](https://github.com/AbinTAbey/PMGSY_Scheme_Classification_ML-Project/blob/eba57139fb95829fb5a628d2563edd1730694d56/src/dataset.PNG)
 
 ## 📊 Data Source
 
