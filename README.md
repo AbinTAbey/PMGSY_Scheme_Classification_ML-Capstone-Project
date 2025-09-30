@@ -23,7 +23,7 @@ Model Deployment: The best-performing classification model is deployed to IBM Wa
 Prediction: The deployed model receives new project data (physical and financial characteristics) and returns the predicted PMGSY scheme, enabling rapid, consistent, and transparent project categorization.
 ## 📊 System Architecture
 
-![image alt](https://github.com/AbinTAbey/PMGSY_Scheme_Classification_ML-Project/blob/eba57139fb95829fb5a628d2563edd1730694d56/src/dataset.PNG)
+![image alt](https://github.com/AbinTAbey/PMGSY_Scheme_Classification_ML-Capstone-Project/blob/84a00a8d0d1e6e7d041e035c19c3f26361adef0b/src/System_Architecture.png)
 
 ## 📊 Data Source
 
