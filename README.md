@@ -25,7 +25,7 @@ Prediction: The deployed model receives new project data (physical and financial
 
 <!--![image alt](https://github.com/AbinTAbey/PMGSY_Scheme_Classification_ML-Capstone-Project/blob/84a00a8d0d1e6e7d041e035c19c3f26361adef0b/src/System_Architecture.png width = 600 height =300) !-->
 
-<img src="https://github.com/AbinTAbey/PMGSY_Scheme_Classification_ML-Capstone-Project/blob/84a00a8d0d1e6e7d041e035c19c3f26361adef0b/src/System_Architecture.png" alt="System Architecture" width="600" height="300">
+<img src="https://github.com/AbinTAbey/PMGSY_Scheme_Classification_ML-Capstone-Project/blob/84a00a8d0d1e6e7d041e035c19c3f26361adef0b/src/System_Architecture.png" alt="System Architecture" width="300" height="300">
 
 ## 📊 Data Source
 
