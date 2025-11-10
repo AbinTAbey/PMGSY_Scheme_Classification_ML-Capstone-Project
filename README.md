@@ -3,6 +3,7 @@
 ## Overview
 
 This project aims to develop a machine learning solution that automatically classifies rural infrastructure projects—such as roads and bridges—under the appropriate phase or scheme of the Pradhan Mantri Gram Sadak Yojana (PMGSY). By leveraging government-provided datasets from the AI Kosh initiative and implementing the entire workflow on IBM Cloud Lite services, the solution intends to help government agencies, infrastructure planners, and policy analysts streamline the monitoring and management of thousands of projects. Efficient classification is crucial for transparent budgeting, efficient resource allocation, and data-driven assessment of the long-term impact of various PMGSY schemes.
+
 ![image alt](https://github.com/AbinTAbey/PMGSY_Scheme_Classification_ML-Capstone-Project/blob/3f40540ea163d62f9e9aecf09fce49ce42d886a1/src/Prompt%20for%20Diagram%20Tool_%20-%20visual%20selection.png)
 
 ## Problem Statement
